@@ -1,0 +1,1 @@
+!function(e){"use strict";e(window).on("load",function(){setTimeout(()=>{e(".wpsf-stream-wrapper").each((t,n)=>{e(n).WpsfMyStream()})},1e3)})}(jQuery);

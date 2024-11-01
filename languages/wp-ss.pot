@@ -1,0 +1,1343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Social Feed Assistant Plugin v1.0\n"
+"POT-Creation-Date: 2020-05-04 16:47+0430\n"
+"PO-Revision-Date: 2020-05-04 16:47+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: ../app/Core/Foundation/Ajax/Controllers/Contract/WpssAjaxBaseController.php:48
+msgid "nonce expired"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/Contract/WpssAjaxBaseController.php:63
+msgid "admin referer is not valid !"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/Contract/WpssAjaxBaseController.php:77
+msgid "incomplete request"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:25
+msgid "Account Successfully Created !"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:45
+msgid "Account Successfully Updated !"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:63
+msgid "Your account has been deleted."
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:75
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:90
+msgid "account title"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:76
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:91
+msgid "account type"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:77
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:92
+msgid "auth key"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:89
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:101
+msgid "account id"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssAccountsAjax.php:109
+msgid "this account is not exist !"
+msgstr ""
+
+#: ../app/Core/Foundation/Ajax/Controllers/WpssGetTemplateAjax.php:38
+msgid "please enter endpoint"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:14
+msgid "The :attribute is required"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:15
+msgid "The :attribute minimum is :min"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:16
+msgid "The :attribute maximum is :max"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:17
+msgid "The :attribute must be numeric"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:18
+msgid "The :attribute must be integer"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:19
+msgid "The :attribute only allows alphabet characters"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:20
+msgid "The :attribute is not valid email"
+msgstr ""
+
+#: ../app/Core/Libs/Validator/WpssValidator.php:21
+msgid "The :attribute only allows :allowed_values"
+msgstr ""
+
+#: ../app/Core/Support/Menus/Controllers/WpssGeneralSettingsController.php:19
+msgid "General Settings"
+msgstr ""
+
+#: ../app/Core/Support/Menus/Controllers/WpssGeneralSettingsController.php:19
+msgid "common settings for whole plugin"
+msgstr ""
+
+#: ../app/Core/Support/Menus/Tabs/WpssAccountsTab.php:27
+msgid "Account Manager"
+msgstr ""
+
+#: ../app/Core/Support/Views/WpssViewsLoader.php:105
+#, php-format
+msgid "the view path : %s to be loaded is not exists"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Admin/Menus/Controllers/WpsfSocialFeedController.php:25
+msgid "Social Feed Assistant"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Admin/Menus/Controllers/WpsfSocialFeedController.php:26
+msgid "Creating amazing galleries of instagram images"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Admin/Menus/Tabs/WpsfFeedsTab.php:24
+#: ../resources/views/menus/tabs/feeds-tab/index.php:2
+#: ../resources/views/menus/tabs/streams-tab/table.php:6
+msgid "Feeds"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Admin/Menus/Tabs/WpsfSettingsTab.php:24
+#: ../resources/views/menus/tabs/settings-tab/index.php:2
+#: ../resources/views/menus/tabs/streams-tab/edit.php:74
+#: ../resources/views/menus/tabs/streams-tab/new.php:48
+msgid "Settings"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Admin/Menus/Tabs/WpsfStreamsTab.php:24
+#: ../resources/views/menus/tabs/streams-tab/index.php:2
+msgid "Streams"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:33
+msgid "Feed Successfully Created"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:59
+msgid "Feed Successfully Updated"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:76
+msgid "Your feed has been deleted."
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:95
+msgid "Your feed cache has been rebuilded."
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:105
+msgid "social id"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:106
+msgid "social type"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:107
+msgid "account name"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:108
+msgid "feed type"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:109
+msgid "update frequency"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:110
+msgid "content to show"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:154
+msgid "feed cache faild, please try again later"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfFeedsAjax.php:164
+msgid "this feed is not exist !"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfSettingsAjax.php:29
+msgid "options successfully save"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfSettingsAjax.php:38
+msgid "share socials"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfStreamsAjax.php:28
+msgid "Stream Successfully Created"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfStreamsAjax.php:52
+msgid "Stream Successfully Updated"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Ajax/Controllers/WpsfStreamsAjax.php:70
+msgid "Your stream has been deleted."
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Services/FeedsCacheManager/WpsfFeedsCacheManager.php:70
+msgid "add posts or comments faild"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Services/SocialsFeedsResponser/WpsfSocialsResponser.php:19
+msgid "social is not valid"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Services/WpsfFeedPostsService.php:135
+msgid "posts or comments saved faild"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Services/WpsfFeedPostsService.php:155
+msgid "comments removed faild! "
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Services/WpsfFeedPostsService.php:159
+msgid "posts removed faild!"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Services/WpsfFeedsService.php:156
+msgid "Feed Created Faild!"
+msgstr ""
+
+#: ../app/Modules/wordpress-social-feed/app/Services/WpsfFeedsService.php:231
+msgid "Feed Updated Faild!"
+msgstr ""
+
+#: ../config/i18n.php:6
+msgid "Oops..."
+msgstr ""
+
+#: ../config/i18n.php:7
+msgid "failed from timeout"
+msgstr ""
+
+#: ../config/i18n.php:8
+msgid "Something went wrong from ajax! , please reload page and try again"
+msgstr ""
+
+#: ../config/i18n.php:9
+msgid "Loading . . ."
+msgstr ""
+
+#: ../config/i18n.php:10
+msgid "Please reload the page for proper operation"
+msgstr ""
+
+#: ../config/i18n.php:11
+msgid "Ok!"
+msgstr ""
+
+#: ../config/i18n.php:12 ../config/i18n.php:16
+msgid "Are you sure?"
+msgstr ""
+
+#: ../config/i18n.php:13
+msgid "You won't be able to revert this!"
+msgstr ""
+
+#: ../config/i18n.php:14
+msgid "Yes, delete it!"
+msgstr ""
+
+#: ../config/i18n.php:15 ../config/i18n.php:19
+msgid "No, cancel!"
+msgstr ""
+
+#: ../config/i18n.php:17
+msgid "This will delete and regenerate feed posts!"
+msgstr ""
+
+#: ../config/i18n.php:18
+msgid "Yes, rebuild it!"
+msgstr ""
+
+#: ../config/i18n.php:20
+msgid "Rebuilded!"
+msgstr ""
+
+#: ../config/i18n.php:21
+msgid "Error rebuilding!"
+msgstr ""
+
+#: ../config/i18n.php:22 ../config/i18n.php:26
+msgid "Please try again"
+msgstr ""
+
+#: ../config/i18n.php:23 ../config/i18n.php:27
+msgid "Cancelled"
+msgstr ""
+
+#: ../config/i18n.php:24
+msgid "Your imaginary feed is safe :)"
+msgstr ""
+
+#: ../config/i18n.php:25
+msgid "Error deleting!"
+msgstr ""
+
+#: ../config/i18n.php:28
+msgid "Your imaginary item is safe :)"
+msgstr ""
+
+#: ../config/i18n.php:29
+msgid "Deleted!"
+msgstr ""
+
+#: ../config/i18n.php:30
+msgid "Oops . . . please fill all inputs !"
+msgstr ""
+
+#: ../config/i18n.php:31
+msgid "Selected Sources Container is not exist !"
+msgstr ""
+
+#: ../config/i18n.php:32
+msgid "Heey , it was added before !"
+msgstr ""
+
+#: ../config/i18n.php:33
+msgid "hey , filter is invalid !"
+msgstr ""
+
+#: ../config/i18n.php:34
+msgid "heey , this feed is not exist on available filters !"
+msgstr ""
+
+#: ../config/i18n.php:35
+msgid "heey , it was added before on filters list !"
+msgstr ""
+
+#: ../config/i18n.php:36
+msgid "Oh , this filter was added before to used filters !"
+msgstr ""
+
+#: ../config/i18n.php:37
+msgid "Enter filter title"
+msgstr ""
+
+#: ../config/i18n.php:38
+msgid "heey , this not checked before !"
+msgstr ""
+
+#: ../config/i18n.php:39
+msgid "Oh , used filter is not valid !"
+msgstr ""
+
+#: ../config/i18n.php:40
+msgid "heey , Please check an option !"
+msgstr ""
+
+#: ../config/i18n.php:41
+msgid "heey , filter for check not exists!"
+msgstr ""
+
+#: ../config/i18n.php:42
+msgid "select loader image"
+msgstr ""
+
+#: ../config/i18n.php:43
+msgid "select image"
+msgstr ""
+
+#: ../config/i18n.php:44
+msgid "Oh , please select some source for this stream"
+msgstr ""
+
+#: ../config/i18n.php:45
+msgid "Oh , please enter stream name !"
+msgstr ""
+
+#: ../config/i18n.php:46
+msgid "stream apply settings faild"
+msgstr ""
+
+#: ../config/i18n.php:47
+msgid "wait for apply settings"
+msgstr ""
+
+#: ../config/i18n.php:48
+msgid "Shortcode Copied :)"
+msgstr ""
+
+#: ../config/pages.php:10 ../config/subpages.php:12
+msgid "wpss-dashboard"
+msgstr ""
+
+#: ../config/pages.php:11
+msgid "Feed Assistant"
+msgstr ""
+
+#: ../config/socials.php:10
+msgid "instagram"
+msgstr ""
+
+#: ../config/subpages.php:13
+msgid "Dashboard"
+msgstr ""
+
+#: ../config/subpages.php:23
+msgid "wpss-social-feed"
+msgstr ""
+
+#: ../config/subpages.php:24
+msgid " Social Feed Assistant"
+msgstr ""
+
+#: ../resources/views/menus/404.php:5
+msgid "404 Page not found."
+msgstr ""
+
+#: ../resources/views/menus/404.php:7
+msgid "Please reload page and try again."
+msgstr ""
+
+#: ../resources/views/menus/dashboard.php:25
+msgid "Send Ticket"
+msgstr ""
+
+#: ../resources/views/menus/dashboard.php:39
+msgid "Start Reading"
+msgstr ""
+
+#: ../resources/views/menus/dashboard.php:54
+msgid "Coming soon"
+msgstr ""
+
+#: ../resources/views/menus/dashboard.php:62
+msgid "Changelog"
+msgstr ""
+
+#: ../resources/views/menus/dashboard.php:64
+msgid "Follow Us"
+msgstr ""
+
+#: ../resources/views/menus/menus-tabs.php:18
+msgid "Need Help"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:2
+msgid "Update Account"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:3
+msgid ""
+"Update your social account and use on all modules on Social Assistant plugin"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:5
+#: ../resources/views/menus/tabs/accounts-tab/new.php:5
+msgid "ACCOUNT LIST"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:19
+#: ../resources/views/menus/tabs/accounts-tab/new.php:15
+msgid ""
+"Account\n"
+"                    Name"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:22
+#: ../resources/views/menus/tabs/accounts-tab/new.php:18
+msgid "select a name for this account"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:28
+#: ../resources/views/menus/tabs/accounts-tab/new.php:24
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:28
+#: ../resources/views/menus/tabs/feeds-tab/new.php:21
+#: ../resources/views/menus/tabs/streams-tab/edit.php:31
+#: ../resources/views/menus/tabs/streams-tab/new.php:18
+msgid "Choose a name"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:32
+#: ../resources/views/menus/tabs/accounts-tab/new.php:28
+msgid ""
+"Account\n"
+"                    Type"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:35
+#: ../resources/views/menus/tabs/accounts-tab/new.php:31
+msgid "select account type"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:52
+#: ../resources/views/menus/tabs/accounts-tab/new.php:48
+msgid ""
+"Auth.\n"
+"                    Key"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:55
+#: ../resources/views/menus/tabs/accounts-tab/new.php:51
+msgid "type this account auth key"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:61
+#: ../resources/views/menus/tabs/accounts-tab/new.php:57
+msgid "ENTER AUTH. key"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/edit.php:67
+#: ../resources/views/menus/tabs/accounts-tab/new.php:63
+msgid "SAVE ACCOUNT"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/index.php:2
+msgid "Accounts"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/index.php:3
+#: ../resources/views/menus/tabs/accounts-tab/new.php:3
+msgid ""
+"Create your social account and use on all modules on Social Assistant plugin"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/index.php:4
+msgid "New Account"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/new.php:2
+msgid "Create Account"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:6
+#: ../resources/views/menus/tabs/feeds-tab/table.php:6
+msgid "Name"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:7
+#: ../resources/views/menus/tabs/feeds-tab/table.php:8
+msgid "Social"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:8
+msgid "Last Updated"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:9
+#: ../resources/views/menus/tabs/feeds-tab/table.php:10
+#: ../resources/views/menus/tabs/streams-tab/table.php:8
+msgid "Actions"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:19
+msgid "Unknown"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:33
+#: ../resources/views/menus/tabs/feeds-tab/table.php:31
+#: ../resources/views/menus/tabs/streams-tab/table.php:48
+msgid "Edit"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:35
+#: ../resources/views/menus/tabs/feeds-tab/table.php:34
+#: ../resources/views/menus/tabs/streams-tab/table.php:52
+msgid "Remove"
+msgstr ""
+
+#: ../resources/views/menus/tabs/accounts-tab/table.php:42
+#: ../resources/views/menus/tabs/feeds-tab/table.php:44
+#: ../resources/views/menus/tabs/streams-tab/table.php:59
+msgid "Row Not Exists !"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:2
+msgid "Update Feed"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:3
+msgid "Update exist feed and use on stream widgets"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:5
+#: ../resources/views/menus/tabs/feeds-tab/new.php:5
+msgid "Feeds List"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:22
+#: ../resources/views/menus/tabs/feeds-tab/new.php:15
+msgid "Title"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:23
+#: ../resources/views/menus/tabs/feeds-tab/new.php:16
+msgid "Set yout title for feed"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:34
+#: ../resources/views/menus/tabs/feeds-tab/new.php:27
+msgid "Social Type"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:35
+#: ../resources/views/menus/tabs/feeds-tab/new.php:28
+msgid "please select social type for this feed"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:56
+#: ../resources/views/menus/tabs/feeds-tab/new.php:49
+msgid "Feed Type"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:57
+#: ../resources/views/menus/tabs/feeds-tab/new.php:50
+msgid "here you should select this feed posts type"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:65
+#: ../resources/views/menus/tabs/feeds-tab/new.php:58
+msgid "Username"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:72
+#: ../resources/views/menus/tabs/feeds-tab/new.php:65
+msgid "Location"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:85
+#: ../resources/views/menus/tabs/feeds-tab/new.php:78
+msgid "Hashtag"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:98
+#: ../resources/views/menus/tabs/feeds-tab/new.php:91
+msgid "Account"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:99
+#: ../resources/views/menus/tabs/feeds-tab/new.php:92
+msgid "here you should select account for used in this social"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:119
+#: ../resources/views/menus/tabs/feeds-tab/new.php:109
+#: ../resources/views/menus/tabs/feeds-tab/table.php:7
+msgid "Content"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:124
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:138
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:158
+#: ../resources/views/menus/tabs/feeds-tab/new.php:114
+#: ../resources/views/menus/tabs/feeds-tab/new.php:128
+#: ../resources/views/menus/tabs/feeds-tab/new.php:148
+msgid "Type And Hit Enter"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:131
+#: ../resources/views/menus/tabs/feeds-tab/new.php:121
+msgid "Exclude All"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:151
+#: ../resources/views/menus/tabs/feeds-tab/new.php:141
+msgid "Include All"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/edit.php:171
+#: ../resources/views/menus/tabs/feeds-tab/new.php:161
+msgid "SAVE FEED"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/index.php:3
+msgid "Create your social feed and use on social widgets"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/index.php:4
+msgid "New Feed"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/new.php:2
+msgid "Create Feed"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/new.php:3
+msgid "Create new feed and use on stream widgets"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/table.php:9
+msgid "Type"
+msgstr ""
+
+#: ../resources/views/menus/tabs/feeds-tab/table.php:37
+msgid "Rebuild Cache"
+msgstr ""
+
+#: ../resources/views/menus/tabs/settings-tab/index.php:3
+msgid "Set your common and general settings for all streams"
+msgstr ""
+
+#: ../resources/views/menus/tabs/settings-tab/index.php:13
+msgid "Share Button Socials"
+msgstr ""
+
+#: ../resources/views/menus/tabs/settings-tab/index.php:14
+msgid "Check socials for show on stream share buttons."
+msgstr ""
+
+#: ../resources/views/menus/tabs/settings-tab/index.php:80
+msgid "delete all data when plugin uninstall."
+msgstr ""
+
+#: ../resources/views/menus/tabs/settings-tab/index.php:81
+msgid "Check if you want erase all data that created plugin."
+msgstr ""
+
+#: ../resources/views/menus/tabs/settings-tab/index.php:96
+msgid "SAVE SETTINGS"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/layout-tab.php:7
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/layout-tab.php:7
+msgid "Stream Template"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/layout-tab.php:8
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/layout-tab.php:8
+msgid "Each template offers unique design and set of styling options."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/layout-tab.php:29
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/layout-tab.php:29
+msgid "Stream Layout"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/layout-tab.php:31
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/layout-tab.php:31
+msgid "Each layout offers unique state of show and set of styling options."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/layout-tab.php:98
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/layout-tab.php:95
+msgid "Responsive settings"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/layout-tab.php:99
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/layout-tab.php:96
+msgid ""
+"Set number of columns\n"
+"                            and gaps between stream posts for various screen "
+"sizes. Keep in\n"
+"                            mind\n"
+"                            that size depends on container which can have "
+"not full width of\n"
+"                            screen."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:3
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:3
+msgid "Stream general settings"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:4
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:4
+msgid "Here you can set stream general settings for all layouts."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:10
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:10
+msgid "Items order"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:11
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:11
+msgid ""
+"Choose rule how stream sorts posts.\n"
+"\t\t\t\tProportional sorting guarantees that all networks are always present "
+"on first\n"
+"\t\t\t\tload."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:47
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:44
+msgid "Post Count"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:48
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:45
+msgid ""
+"post count show on each page , we\n"
+"\t\t\t\trecommended you select even number"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:60
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:57
+msgid "Max Container Width "
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:61
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:58
+msgid "Leave empty for responsiveness, will fill container."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:72
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:69
+msgid "action On Image Click"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:74
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:71
+msgid "choose action for click on post image"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:89
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:86
+msgid "Date Format"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:91
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:88
+msgid "format date for show on each post"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:105
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:102
+msgid "Feed Load With Animation"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:107
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:104
+msgid "are the feeds loaded with animation ?"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:120
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:117
+msgid "Feed Loading Image"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:122
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:119
+msgid "loading image for each feed ( type feed loading image url )"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:132
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:129
+msgid "show Search Bar"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:133
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:130
+msgid "show search bar on each feed top"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:146
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:143
+msgid "private Stream"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:147
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:144
+msgid "show only for logged in users !"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:160
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:157
+msgid "Hide stream on a desktop"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:161
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:158
+msgid ""
+"If you want to create mobiles specific\n"
+"\t\t\t\tstream only."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:175
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:172
+msgid "Hide stream on a mobile device"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:176
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:173
+msgid ""
+"If you want to show stream content only on\n"
+"\t\t\t\tdesktops."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:190
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:187
+msgid "Show only media posts"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:191
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:188
+msgid "Display posts with images/video only."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:204
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:201
+msgid "Titles link"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:205
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:202
+msgid ""
+"Visit original post URL by clicking on\n"
+"\t\t\t\tpost title, even if lightbox is enabled."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:219
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:216
+msgid "open Links In New Tab"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:220
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:217
+msgid ""
+"open link in new tab when click on titles\n"
+"\t\t\t\tlink"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:235
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:231
+msgid "Max image resolution"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:236
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:232
+msgid ""
+"Use only for streams with large-sized\n"
+"\t\t\t\tposts. Not recommended for default stream design."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:250
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:246
+msgid "Custom Css"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/settings-tab.php:252
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/settings-tab.php:248
+msgid "you can type here custom css for each stream"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/shortcode-tab.php:4
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/shortcode-tab.php:4
+msgid "Stream shortcode"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/shortcode-tab.php:5
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/shortcode-tab.php:5
+msgid "Place this shortcode anywhere on your site."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/source-tab.php:3
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/source-tab.php:3
+msgid "Connected Feeds"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/source-tab.php:5
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/source-tab.php:5
+msgid ""
+"Here you can connect feeds created on Feeds tab. To detach feed click feed "
+"label."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/source-tab.php:13
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/source-tab.php:13
+msgid "Select Sources"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/source-tab.php:18
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/source-tab.php:18
+msgid "Select a feed sources..."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:6
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:6
+msgid "Cards Styling"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:7
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:7
+msgid "here you can set styling settings for cards"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:13
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:13
+msgid "Avatar STYLE"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:14
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:14
+msgid "avatar shape style."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:26
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:27
+msgid "Card Courner"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:27
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:28
+msgid "card box corners."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:39
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:41
+msgid "Social icon style"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:40
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:42
+msgid "Common setting for social icon style"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:57
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:57
+msgid "Text alignment"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:58
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:58
+msgid "Common setting for card text alignment"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:83
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:80
+msgid "Display post elements"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:84
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:81
+msgid "here you can set what elements will be show on each post."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:91
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:88
+msgid "Avatar"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:92
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:89
+msgid "show post avatar"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:109
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:105
+msgid "User"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:110
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:106
+msgid "show post user"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:127
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:122
+msgid "Date"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:128
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:123
+msgid "show date post"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:144
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:139
+msgid "Post Link"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:145
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:140
+msgid "show post link"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:161
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:156
+msgid "Like Count"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:162
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:157
+msgid "show post like count"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:178
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:173
+msgid "Comment Count"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:179
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:174
+msgid "show post comments count"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:195
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:190
+msgid "Share"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:196
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:191
+msgid "show post share link"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:212
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:207
+msgid "text"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:213
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:208
+msgid "show post text"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:236
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:231
+msgid "Post Colors"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:237
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:232
+msgid "here you can colors settings for posts"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:244
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:240
+msgid "Classic Template Link"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:245
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:241
+msgid "set classic template post link color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:257
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:251
+msgid "Classic Template Text"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:258
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:252
+msgid "set classic template post text color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:269
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:262
+msgid "Classic Template Background"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:270
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:263
+msgid ""
+"set classic template post background\n"
+"                        color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:284
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:278
+msgid "Tile Template Overlay"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:285
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:279
+msgid "set tile template post overlay color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:296
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:290
+msgid "Tile Template Text"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:297
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:291
+msgid "set tile template post text color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:308
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:302
+msgid "Tile Template Link"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:309
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:303
+msgid "set tile template post link color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:323
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:318
+msgid "ACCENT COLOR"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:324
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:319
+msgid "Applies to post heading."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:335
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:329
+msgid "SECONDARY COLOR"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:336
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:330
+msgid "Applies to timestamp and social counters."
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:347
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:341
+msgid "card shadow"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:348
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:342
+msgid "set card post box shadow"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:366
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:361
+msgid "Button Colors"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:367
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:362
+msgid "here you can set colors settings for grid"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:373
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:368
+msgid "Button Color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:374
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:369
+msgid "set button text color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:386
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:381
+msgid "Button Background"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit-stream-tabs/style-color-tab.php:387
+#: ../resources/views/menus/tabs/streams-tab/new-stream-tabs/style-color-tab.php:382
+msgid "set button background color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:2
+msgid "Update Stream"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:3
+msgid "Update your Stream and use on frontend with special shortcode"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:5
+#: ../resources/views/menus/tabs/streams-tab/new.php:5
+msgid "STREAMS LIST"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:12
+msgid "APPLY SETTINGS"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:30
+#: ../resources/views/menus/tabs/streams-tab/new.php:17
+msgid "Stream Name"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:36
+msgid "Adjust Settings"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:38
+msgid "LIVE PREVIEW"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:54
+#: ../resources/views/menus/tabs/streams-tab/new.php:28
+msgid "Source"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:57
+#: ../resources/views/menus/tabs/streams-tab/new.php:31
+#: ../resources/views/menus/tabs/streams-tab/table.php:5
+msgid "Layout"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:61
+#: ../resources/views/menus/tabs/streams-tab/new.php:35
+msgid "Filters"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:71
+#: ../resources/views/menus/tabs/streams-tab/new.php:45
+msgid "Style and Color"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:77
+#: ../resources/views/menus/tabs/streams-tab/new.php:51
+#: ../resources/views/menus/tabs/streams-tab/table.php:7
+msgid "Shortcode"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/edit.php:98
+#: ../resources/views/menus/tabs/streams-tab/new.php:72
+msgid "SAVE STREAM"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/index.php:3
+#: ../resources/views/menus/tabs/streams-tab/new.php:3
+msgid "Create your Stream and use on frontend with special shortcode"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/index.php:4
+msgid "New Stream"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/index.php:8
+msgid ""
+"You have no feed or stream created!!! Please create a new feed by going to "
+"the"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/index.php:9
+msgid "feed tab"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/new.php:2
+msgid "Create Stream"
+msgstr ""
+
+#: ../resources/views/menus/tabs/streams-tab/table.php:4
+msgid "Stream"
+msgstr ""

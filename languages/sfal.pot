@@ -1,0 +1,547 @@
+# Copyright (C) 2020 iThemelandCo
+# This file is distributed under the same license as the iThemelandco Social Feed Assistant Lite plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: iThemelandco Social Feed Assistant Lite 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-27T12:08:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: sfal\n"
+
+#. Plugin Name of the plugin
+msgid "iThemelandco Social Feed Assistant Lite"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.ithemelandco.com/Plugins/Social-Feed-Assistant"
+msgstr ""
+
+#. Description of the plugin
+msgid "An Amazing plugin for manage your socials feeds with your own wordpress site - Lite"
+msgstr ""
+
+#. Author of the plugin
+msgid "iThemelandCo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.ithemelandco.com"
+msgstr ""
+
+#: app/Admin/Menus/Controllers/SfalGeneralSettingsController.php:19
+#: config/subpages.php:23
+msgid "General Settings"
+msgstr ""
+
+#: app/Admin/Menus/Controllers/SfalGeneralSettingsController.php:19
+msgid "common settings for whole plugin"
+msgstr ""
+
+#: app/Admin/Menus/Controllers/SfalSocialFeedController.php:24
+msgid "Social Feed Assistant"
+msgstr ""
+
+#: app/Admin/Menus/Controllers/SfalSocialFeedController.php:25
+msgid "Creating amazing galleries of instagram images"
+msgstr ""
+
+#: app/Admin/Menus/Tabs/SfalAccountsTab.php:24
+msgid "Account Manager"
+msgstr ""
+
+#: app/Admin/Menus/Tabs/SfalFeedsTab.php:24
+msgid "Feeds"
+msgstr ""
+
+#: app/Admin/Menus/Tabs/SfalSettingsTab.php:24
+msgid "Settings"
+msgstr ""
+
+#: app/Admin/Menus/Tabs/SfalStreamsTab.php:24
+msgid "Streams"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:27
+msgid "Account successfully created"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:50
+msgid "Account successfully updated !"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:70
+msgid "Your account has been deleted."
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:112
+msgid "account id"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:113
+msgid "account title"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:114
+msgid "account type"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:115
+msgid "auth settings"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:116
+msgid "instagram authentication settings"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:117
+msgid "instagram username"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:118
+msgid "instagram password"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:119
+msgid "twitter authentication settings"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalAccountsAjax.php:127
+msgid "this account is not exist !"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:32
+msgid "Feed successfully created"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:66
+msgid "Feed successfully updated"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:93
+msgid "Your feed has been deleted."
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:114
+msgid "this feed does not support rebuild feature!"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:121
+msgid "Your feed cache has been rebuilded."
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:133
+msgid "social id"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:134
+msgid "social type"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:135
+msgid "account name"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:136
+msgid "feed type"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:137
+msgid "update frequency"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalFeedsAjax.php:138
+msgid "content to show"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalPostsAjax.php:30
+msgid "Feed posts successfully created"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalSettingsAjax.php:28
+msgid "options successfully save"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalSettingsAjax.php:37
+msgid "share socials"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalStreamsAjax.php:46
+msgid "Stream successfully created"
+msgstr ""
+
+#: app/Ajax/Controllers/SfalStreamsAjax.php:86
+msgid "Stream Successfully Updated"
+msgstr ""
+
+#: app/Core/Foundation/Abstractions/SfalAjaxBaseController.php:46
+msgid "nonce expired"
+msgstr ""
+
+#: app/Core/Foundation/Abstractions/SfalAjaxBaseController.php:61
+msgid "admin referer is not valid !"
+msgstr ""
+
+#: app/Core/Foundation/Abstractions/SfalAjaxBaseController.php:75
+msgid "incomplete request"
+msgstr ""
+
+#. translators: %1$s is replaced with "php version"
+#: app/Core/Foundation/SfalApplication.php:114
+msgid "SFAL ( Social feed assistant ) requires PHP%s to be run current!"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:14
+msgid "The :attribute is required"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:15
+msgid "The :attribute minimum is :min"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:16
+msgid "The :attribute maximum is :max"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:17
+msgid "The :attribute must be numeric"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:18
+msgid "The :attribute must be integer"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:19
+msgid "The :attribute only allows alphabet characters"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:20
+msgid "The :attribute is not valid email"
+msgstr ""
+
+#: app/Core/Libs/Validator/SfalValidator.php:21
+msgid "The :attribute only allows :allowed_values"
+msgstr ""
+
+#. translators: %1$s is replaced with "view path"
+#: app/Core/Support/Views/SfalViewsLoader.php:106
+msgid "the view path : %s to be loaded is not exists"
+msgstr ""
+
+#: app/Services/FeedsCacheManager/SfalFeedsCacheManager.php:70
+#: app/Services/MakePosts/SfalMakePosts.php:102
+msgid "add posts or comments faild"
+msgstr ""
+
+#: app/Services/MakePosts/Responsers/InstagramPostsResponser/SfalInstagramResponser.php:67
+msgid "Used account for feed is not valid"
+msgstr ""
+
+#: app/Services/MakePosts/SfalMakePosts.php:42
+msgid "this feed social does not support make links"
+msgstr ""
+
+#: app/Services/MakePosts/SfalMakePosts.php:123
+msgid "The feed social type is not valid"
+msgstr ""
+
+#: app/Services/MakePosts/SfalMakePosts.php:129
+msgid "This feed required account for authentication"
+msgstr ""
+
+#: app/Services/MakePosts/SfalMakePosts.php:140
+msgid "Feed content with this id does not exists"
+msgstr ""
+
+#: app/Services/SfalFeedPostsService.php:91
+msgid "There was a problem on updating the medias, please rebuild the feed."
+msgstr ""
+
+#: app/Services/SfalFeedPostsService.php:169
+msgid "There is an error in deleting posts or comments., Please try again."
+msgstr ""
+
+#: app/Services/SfalFeedPostsService.php:197
+msgid "There is an error in deleting posts or comments, Please try again."
+msgstr ""
+
+#: app/Services/SfalFeedsService.php:140
+msgid "Feed created faild!"
+msgstr ""
+
+#: app/Services/SfalFeedsService.php:196
+msgid "Feed Contents Created Faild!"
+msgstr ""
+
+#: app/Services/SfalFeedsService.php:237
+msgid "Feed updated faild!"
+msgstr ""
+
+#: app/Services/SfalStreamsService.php:169
+msgid "Stream created faild!"
+msgstr ""
+
+#: app/Services/SfalStreamsService.php:197
+msgid "Stream updated faild!"
+msgstr ""
+
+#: app/Services/SfalStreamsService.php:220
+msgid "Stream filters created faild!"
+msgstr ""
+
+#: app/Services/SfalStreamsSourcesService.php:95
+msgid "Stream sources created faild!"
+msgstr ""
+
+#: app/Services/SocialsFeedsResponser/SfalSocialsResponser.php:18
+msgid "social is not valid"
+msgstr ""
+
+#: config/i18n.php:6
+msgid "Oops..."
+msgstr ""
+
+#: config/i18n.php:7
+msgid "failed from timeout"
+msgstr ""
+
+#: config/i18n.php:8
+msgid "Something went wrong from ajax! , please reload page and try again"
+msgstr ""
+
+#: config/i18n.php:9
+msgid "Loading . . ."
+msgstr ""
+
+#: config/i18n.php:10
+msgid "Please reload the page for proper operation"
+msgstr ""
+
+#: config/i18n.php:11
+msgid "Ok!"
+msgstr ""
+
+#: config/i18n.php:12
+#: config/i18n.php:16
+msgid "Are you sure?"
+msgstr ""
+
+#: config/i18n.php:13
+msgid "You won't be able to revert this!"
+msgstr ""
+
+#: config/i18n.php:14
+msgid "Yes, delete it!"
+msgstr ""
+
+#: config/i18n.php:15
+#: config/i18n.php:19
+msgid "No, cancel!"
+msgstr ""
+
+#: config/i18n.php:17
+msgid "This will delete and regenerate feed posts!"
+msgstr ""
+
+#: config/i18n.php:18
+msgid "Yes, rebuild it!"
+msgstr ""
+
+#: config/i18n.php:20
+msgid "Rebuilded!"
+msgstr ""
+
+#: config/i18n.php:21
+msgid "Error rebuilding!"
+msgstr ""
+
+#: config/i18n.php:22
+#: config/i18n.php:26
+msgid "Please try again"
+msgstr ""
+
+#: config/i18n.php:23
+#: config/i18n.php:27
+msgid "Cancelled"
+msgstr ""
+
+#: config/i18n.php:24
+msgid "Your imaginary feed is safe :)"
+msgstr ""
+
+#: config/i18n.php:25
+msgid "Error deleting!"
+msgstr ""
+
+#: config/i18n.php:28
+msgid "Your imaginary item is safe :)"
+msgstr ""
+
+#: config/i18n.php:29
+msgid "Deleted!"
+msgstr ""
+
+#: config/i18n.php:30
+msgid "Oops. . . please fill all inputs!"
+msgstr ""
+
+#: config/i18n.php:31
+msgid "There is no sources container"
+msgstr ""
+
+#: config/i18n.php:32
+msgid "A source with these specifications has already been added!"
+msgstr ""
+
+#: config/i18n.php:33
+msgid "The filter is not valid"
+msgstr ""
+
+#: config/i18n.php:34
+msgid "There is no filter with these specifications."
+msgstr ""
+
+#: config/i18n.php:35
+msgid "This source was already on the list of available filters"
+msgstr ""
+
+#: config/i18n.php:36
+msgid "This filter was added before to used filters!"
+msgstr ""
+
+#: config/i18n.php:37
+msgid "Enter filter title"
+msgstr ""
+
+#: config/i18n.php:38
+msgid "This filter did not exist before"
+msgstr ""
+
+#: config/i18n.php:39
+msgid "The selected filter is not valid"
+msgstr ""
+
+#: config/i18n.php:40
+msgid "Please select an option"
+msgstr ""
+
+#: config/i18n.php:41
+msgid "There are no filters"
+msgstr ""
+
+#: config/i18n.php:42
+msgid "select loader image"
+msgstr ""
+
+#: config/i18n.php:43
+msgid "select image"
+msgstr ""
+
+#: config/i18n.php:44
+msgid "Please add a source for this stream"
+msgstr ""
+
+#: config/i18n.php:45
+msgid "Please enter stream name!"
+msgstr ""
+
+#: config/i18n.php:46
+msgid "Stream apply settings faild"
+msgstr ""
+
+#: config/i18n.php:47
+msgid "Wait for apply settings"
+msgstr ""
+
+#: config/i18n.php:48
+msgid "Shortcode Copied :)"
+msgstr ""
+
+#: config/pages.php:10
+#: config/subpages.php:13
+msgid "SFAL-Dashboard"
+msgstr ""
+
+#: config/pages.php:11
+msgid "Feed Assistant"
+msgstr ""
+
+#: config/socials.php:10
+msgid "instagram"
+msgstr ""
+
+#: config/subpages.php:14
+msgid "Dashboard"
+msgstr ""
+
+#: config/subpages.php:22
+msgid "SFAL-General-settings"
+msgstr ""
+
+#: config/subpages.php:33
+msgid "SFAL-Social-feed"
+msgstr ""
+
+#: config/subpages.php:34
+msgid " Social Feed Assistant"
+msgstr ""
+
+#: resources/views/menus/tabs/accounts-tab/edit.php:53
+#: resources/views/menus/tabs/accounts-tab/new.php:49
+msgid "Instagram login"
+msgstr ""
+
+#: resources/views/menus/tabs/accounts-tab/edit.php:55
+#: resources/views/menus/tabs/accounts-tab/new.php:51
+msgid "type instagram login username"
+msgstr ""
+
+#: resources/views/menus/tabs/accounts-tab/edit.php:61
+#: resources/views/menus/tabs/accounts-tab/new.php:57
+msgid "ENTER Username"
+msgstr ""
+
+#: resources/views/menus/tabs/accounts-tab/edit.php:65
+#: resources/views/menus/tabs/accounts-tab/new.php:61
+msgid "Instagram password"
+msgstr ""
+
+#: resources/views/menus/tabs/accounts-tab/edit.php:67
+#: resources/views/menus/tabs/accounts-tab/new.php:63
+msgid "type instagram login password"
+msgstr ""
+
+#: resources/views/menus/tabs/accounts-tab/edit.php:73
+#: resources/views/menus/tabs/accounts-tab/new.php:69
+msgid "ENTER Password"
+msgstr ""
+
+#: resources/views/menus/tabs/accounts-tab/table.php:42
+#: resources/views/menus/tabs/feeds-tab/table.php:44
+#: resources/views/menus/tabs/streams-tab/table.php:59
+msgid "Row Not Exists !"
+msgstr ""
+
+#: resources/views/menus/tabs/feeds-tab/edit.php:124
+#: resources/views/menus/tabs/feeds-tab/new.php:114
+msgid "Type And Hit Enter"
+msgstr ""
+
+#: resources/views/menus/tabs/streams-tab/edit.php:30
+#: resources/views/menus/tabs/streams-tab/new.php:17
+msgid "Stream Name"
+msgstr ""
+
+#: resources/views/menus/tabs/streams-tab/edit.php:31
+#: resources/views/menus/tabs/streams-tab/new.php:18
+msgid "Choose a name"
+msgstr ""
+
+#: resources/views/shortcodes/sfal/index.php:56
+msgid "Load More"
+msgstr ""
